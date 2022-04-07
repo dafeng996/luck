@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+  <title>Luck</title>
+  <script type="module">
+    import { createApp, defineComponent, h } from 'https://cdn.jsdelivr.net/npm/vue@3.2.31/dist/vue.esm-browser.prod.js'
+
+    const title = defineComponent({
+      el: '#title',
+      data() {
+        return {
+          title: 'asdasd'
+        }
+      }
+    })
+    
+    const main = defineComponent({
+      data() {
+        return {
+          title: 'title'
+        }
+      },
+
+      render() {
+        h('div', {}, this.title)
+      }
+    })
+
+    const app = createApp({
+      render() {
+        return h('h1', {}, 'Some title')
+      }
+    })
+    app.mount('#app')
+  </script>
+</head>
+<body>
+  <div id="app">
+    <div class="title">
+      {{ title }}
+    </div>
+  </div>
+</body>
+</html>
+

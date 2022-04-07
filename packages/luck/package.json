@@ -1,0 +1,17 @@
+{
+  "name": "luck",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "bin": {
+    "luck": "./bin/luck.js"
+  },
+  "dependencies": {
+    "shared": "1.0.0"
+  },
+  "devDependencies": {
+    "ignore": "^5.2.0"
+  }
+}

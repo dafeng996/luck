@@ -1,0 +1,21 @@
+{
+  "name": "luck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dafeng996/luck.git",
+  "author": "大风 <1236192@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "commander": "^9.1.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.70.0"
+  }
+}

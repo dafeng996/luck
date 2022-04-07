@@ -1,0 +1,9 @@
+{
+  "excludes": [
+    ".git/**",
+    ".idea/**",
+    ".vscode/**",
+    "**/node_modules/**"
+  ],
+  "fileTypes": "\\.(jsx|vue)$"
+}
